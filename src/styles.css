@@ -1,3 +1,17 @@
+body {
+  background-color: #f9e5e5;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/happy-together.jpg");
@@ -63,7 +77,44 @@ header a:hover {
 }
 
 footer {
+  color: cornsilk;
+  background-image: linear-gradient(rgba(204, 0, 0, 0.6), rgba(204, 0, 0, 0.6)),
+    url("../images/ht-footer3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 12px;
+  opacity: 0.8;
+}
+
+.footer-git {
   text-align: center;
+  margin-top: 100px;
 }
 
 @media (max-width: 900px) {

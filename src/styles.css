@@ -129,7 +129,7 @@ header {
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 header h1 {
@@ -146,6 +146,7 @@ header h3 {
   font-style: normal;
   line-height: 2;
   letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 header h2 {
@@ -288,7 +289,7 @@ footer {
     url("../images/ht-footer3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
